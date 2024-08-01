@@ -24,10 +24,10 @@ def calculate_difference(x, y):
 
 
 def create_dataframe():
-  """
-  Creates dummy dataframe
-  :return: pd.dataframe
-  """
-  df = pd.DataFrame({"A": [0, 2, 9, 6], "B": [5, 2, 7, 6] , "C":["a", "b", "c", "d"]})
-  return df
+    """
+    Creates dummy dataframe
+    :return: pd.dataframe
+    """
+    df = pd.DataFrame({"A": [0, 2, 9, 6], "B": [5, 2, 7, 6] , "C":["a", "b", "c", "d"]})
+    return df
 
