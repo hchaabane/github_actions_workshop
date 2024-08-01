@@ -1,4 +1,4 @@
-name: Pylint
+name: pylint-workflow-code-health
 
 on: [push]
 
