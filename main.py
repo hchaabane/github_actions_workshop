@@ -1,21 +1,33 @@
 """
+main.py
 This module is a test
 """
+import pandas as pd
 def calculate_x_squared(x):
     """
-    calcaulate x squared
+    Calculates x squared
     :param x:  int
     :return: int
     """
-    print("hello world")
+    print("x squared calcualted")
     return x*x
 
 def calculate_difference(x, y):
     """
-    calculate difference
+    Calculates difference between y and x
     :param x: int
     :param y: int
     :return: difference int
     """
-    print("Here")
+    print("difference calculated")
     return y - x
+
+
+def create_dataframe():
+  """
+  Creates dummy dataframe
+  :return: pd.dataframe
+  """
+  df = pd.DataFrame({"A": [0, 2, 9, 6], "B": [5, 2, 7, 6] , "C":["a", "b", "c", "d"]})
+  return df
+
